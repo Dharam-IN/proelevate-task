@@ -1,8 +1,7 @@
 'use client'
 import eventsData from '@/data/eventsDummy.json';
-import { useParams, useRouter } from 'next/navigation';
+import { useParams } from 'next/navigation';
 
-import { useEffect, useState } from 'react';
 
 interface Event {
   id: number;
@@ -12,12 +11,21 @@ interface Event {
 }
 
 export default function EventDetail() {
-  const router = useParams()
-  // console.log(router)
-  const {id} = router;
+  const router = useParams() as Record<string, string | string[]>;
+  console.log(router);
+  
+  if (!router) {
+    return (
+      <>
+        Event Not found
+      </>
+    );
+  }
 
-  const event = eventsData.find(event => event.id === Number(id))
-  console.log(event)
+  const id = Array.isArray(router.id) ? router.id[0] : router.id;
+  const event = eventsData.find(event => event.id === Number(id));
+  console.log(event);
+
 
   if(!event){
     return(
