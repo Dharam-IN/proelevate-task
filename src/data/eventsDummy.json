@@ -1,0 +1,62 @@
+[
+  {
+      "id": 1,
+      "name": "Event 1",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "deadline": "2024-06-30"
+  },
+  {
+      "id": 2,
+      "name": "Event 2",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "deadline": "2024-07-15"
+  },
+  {
+      "id": 3,
+      "name": "Event 3",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "deadline": "2024-08-01"
+  },
+  {
+      "id": 4,
+      "name": "Event 4",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "deadline": "2024-08-10"
+  },
+  {
+      "id": 5,
+      "name": "Event 5",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "deadline": "2024-09-05"
+  },
+  {
+      "id": 6,
+      "name": "Event 6",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "deadline": "2024-09-20"
+  },
+  {
+      "id": 7,
+      "name": "Event 7",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "deadline": "2024-10-15"
+  },
+  {
+      "id": 8,
+      "name": "Event 8",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "deadline": "2024-11-01"
+  },
+  {
+      "id": 9,
+      "name": "Event 9",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "deadline": "2024-11-20"
+  },
+  {
+      "id": 10,
+      "name": "Event 10",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "deadline": "2024-12-05"
+  }
+]
